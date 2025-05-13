@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- 배경 -->
+  <rect x="4" y="4" width="120" height="120" rx="20" fill="#4285f4" stroke="#2a56c6" stroke-width="4"/>
+  
+  <!-- 복사 아이콘 (왼쪽) -->
+  <g transform="translate(20, 32) scale(0.6)">
+    <rect x="10" y="10" width="50" height="65" rx="4" fill="white" stroke="#333" stroke-width="4"/>
+    <rect x="25" y="25" width="50" height="65" rx="4" fill="#e8f0fe" stroke="#333" stroke-width="4"/>
+  </g>
+  
+  <!-- 붙여넣기 아이콘 (오른쪽) -->
+  <g transform="translate(65, 32) scale(0.6)">
+    <rect x="10" y="10" width="50" height="65" rx="4" fill="white" stroke="#333" stroke-width="4"/>
+    <path d="M20 35 L50 35 M20 50 L50 50 M20 65 L50 65" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- 화살표 -->
+  <path d="M64 20 L64 10 L80 25 L64 40 L64 30" fill="#ffcc00" stroke="#333" stroke-width="2"/>
+  <path d="M64 108 L64 98 L48 83 L64 68 L64 78" fill="#ffcc00" stroke="#333" stroke-width="2"/>
+</svg>
