@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "드래그 복사 우클릭 붙여넣기",
+  "name": "DragCopyPaste",
   "version": "1.0",
-  "description": "텍스트를 드래그하면 자동으로 복사하고, 우클릭하면 붙여넣기 합니다.",
+  "description": "When you drag the text, it is automatically copied, right-clicking will paste it.",
   "permissions": ["clipboardRead", "clipboardWrite", "contextMenus"],
   "content_scripts": [
     {
@@ -16,7 +16,7 @@
       "48": "icon48.png",
       "128": "icon128.png"
     },
-    "default_title": "드래그 복사 우클릭 붙여넣기"
+    "default_title": "DragCopyPaste"
   },
   "background": {
     "service_worker": "background.js"

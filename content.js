@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "showStatus") {
     // 화면에 상태 표시
     const notification = document.createElement("div");
-    notification.textContent = "드래그 복사 우클릭 붙여넣기 활성화됨";
+    notification.textContent = "DragCopyPaste is enabled";
     notification.style.cssText = `
       position: fixed;
       top: 20px;
@@ -48,11 +48,11 @@ document.addEventListener("mouseup", function (event) {
         .writeText(selectedText)
         .then(() => {
           // 선택 상태를 유지하기 위해 선택을 취소하지 않음
-          console.log("텍스트가 클립보드에 복사되었습니다: ", selectedText);
+          console.log("Text copied to clipboard: ", selectedText);
 
           // 시각적 피드백 (옵션)
           const notification = document.createElement("div");
-          notification.textContent = "복사됨!";
+          notification.textContent = "Copied!";
           notification.style.cssText = `
             position: fixed;
             top: ${event.clientY - 30}px;
@@ -81,7 +81,7 @@ document.addEventListener("mouseup", function (event) {
           }, 1000);
         })
         .catch((err) => {
-          console.error("클립보드 복사 실패: ", err);
+          console.error("Clipboard Copy Failed: ", err);
         });
     }
   }
@@ -128,11 +128,11 @@ document.addEventListener("contextmenu", function (event) {
             document.execCommand("insertText", false, text);
           }
 
-          console.log("텍스트가 붙여넣기 되었습니다.");
+          console.log("Text pasted.");
         }
       })
       .catch((err) => {
-        console.error("클립보드 읽기 실패: ", err);
+        console.error("Clipboard Read Failed: ", err);
       });
   }
 });
