@@ -36,6 +36,9 @@
 ## 📷 시연 화면
 
 
+![copypaste](https://github.com/user-attachments/assets/3133b92b-c2d5-4024-8baa-d866bbecdc5d)
+
+
 ---
 
 ## 🤔 만들게 된 이유
