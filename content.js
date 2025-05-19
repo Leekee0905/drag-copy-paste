@@ -77,7 +77,6 @@ document.addEventListener("mouseup", function (event) {
   }
 });
 
-// 우클릭 시 붙여넣기 기능
 document.addEventListener("contextmenu", function (event) {
   const isTextField =
     event.target.tagName === "INPUT" ||
