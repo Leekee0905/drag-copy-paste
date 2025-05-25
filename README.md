@@ -1,7 +1,9 @@
 # 🚀 DragCopyPaste – 빠른 복사 & 붙여넣기 크롬 확장 프로그램
 
 **드래그 → 우클릭 한 번으로 붙여넣기 완료!**  
-반복되는 복사-붙여넣기 과정을 단축해주는 생산성 도구입니다.
+반복되는 복사-붙여넣기 과정을 단축해주는 생산성 도구입니다.  
+
+스토어 링크 : https://chromewebstore.google.com/detail/dragcopypaste/ddgmopofmdofklgajjjpjnhhcmikaeli?hl=ko
 
 ---
 
