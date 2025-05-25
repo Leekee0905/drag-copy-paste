@@ -28,11 +28,17 @@
 
 ## 📦 설치 방법
 
+### 로컬 설치 방법
 1. 이 레포지토리를 클론하거나 ZIP 다운로드  
 2. 크롬 주소창에 `chrome://extensions` 입력 후 진입  
 3. `개발자 모드` 활성화 → `압축 해제된 확장 프로그램 로드` 클릭  
-4. `/drag-copy-paste` 디렉토리 선택
+4. `/drag-copy-paste` 디렉토리 선택  
 
+### 스토어 설치 방법
+1. [스토어](https://chromewebstore.google.com/detail/dragcopypaste/ddgmopofmdofklgajjjpjnhhcmikaeli?hl=ko)에 접속한다.
+2. Chrome에 추가를 선택
+
+   
 ---
 
 ## 📷 시연 화면
